@@ -1,0 +1,32 @@
+{
+  "id": "ironbound-module-beta",
+  "title": "Ironbound-Module-beta",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "David Ward",
+      "discord": "Grimwood_Games",
+      "email": "support@grimwood.games",
+      "url": "http://www.grimwood.games",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventure",
+      "label": "Adventure",
+      "path": "packs/adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "gw",
+      "flags": {}
+    }
+  ]
+}
